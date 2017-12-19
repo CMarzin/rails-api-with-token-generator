@@ -40,14 +40,6 @@ end
 group :production do
   gem 'pg', '~> 0.21'
   gem 'rails_12factor'
-  gem 'jwt'
-
-  gem 'simple_command'
-
-  gem 'paperclip'
-  gem 'rack-cors'
-  gem 'bcrypt', '~> 3.1.7'
-  gem 'jbuilder', '~> 2.5'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -58,3 +50,5 @@ gem 'jwt'
 gem 'simple_command'
 
 gem 'paperclip'
+
+gem 'rest-client', '~> 1.8'
