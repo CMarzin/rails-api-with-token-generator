@@ -50,5 +50,3 @@ gem 'jwt'
 gem 'simple_command'
 
 gem 'paperclip'
-
-gem 'rest-client', '~> 1.8'
