@@ -1,0 +1,2 @@
+class BubbleGame < ApplicationRecord
+end
