@@ -10,14 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180215144721) do
-
-  create_table "bubble_games", force: :cascade do |t|
-    t.string "pseudo"
-    t.integer "score"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
+ActiveRecord::Schema.define(version: 20171218224341) do
 
   create_table "items", force: :cascade do |t|
     t.string "name"
@@ -28,13 +21,6 @@ ActiveRecord::Schema.define(version: 20180215144721) do
     t.string "picture_content_type"
     t.integer "picture_file_size"
     t.datetime "picture_updated_at"
-  end
-
-  create_table "trololos", force: :cascade do |t|
-    t.string "name"
-    t.text "description"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
   end
 
   create_table "users", force: :cascade do |t|

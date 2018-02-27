@@ -1,2 +1,0 @@
-class BubbleGame < ApplicationRecord
-end
